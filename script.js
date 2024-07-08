@@ -43,7 +43,7 @@ async function checkWeather(city) {
       document.querySelector(".error").style.display = "none";
    }
   }
-
+//we use the event listner for when we click the div
 searchBtn.addEventListener("click", () => {
   checkWeather(searchBox.value);
 })
