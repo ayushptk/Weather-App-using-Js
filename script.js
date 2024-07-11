@@ -41,7 +41,7 @@ async function checkWeather(city) {
       }
       document.querySelector(".weather").style.display = "block";
       document.querySelector(".error").style.display = "none";
-      //it will access the div and add style display none
+
    }
   }
 //we use the event listner for when we click the div
