@@ -8,7 +8,9 @@ const searchBtn = document.querySelector(".search button");
 async function checkWeather(city) {
   const apiurl = `${apiBase}${city}&appid=${apiKey}`;
   const response = await fetch(apiurl);
-
+  //await  work only when they get data
+ 
+  //error
   if(response.status == 404){
     document.querySelector(".error").style.display = "block";
     document.querySelector(".weather").style.display = "none";
